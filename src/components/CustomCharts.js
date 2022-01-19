@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import { Typography } from "@material-ui/core";
-import { Bar } from "react-chartjs-2";
+import React, {useState} from "react";
+import {Typography} from "@material-ui/core";
+import {Bar} from "react-chartjs-2";
 
 export default function CustomCharts() {
   const [chartData, setChartData] = useState({
@@ -41,7 +41,7 @@ export default function CustomCharts() {
             text: "Largest cities of Massachusetts"
             /* fontSize: 25 */
           },
-          legend: { display: true, position: "bottom" }
+          legend: {display: true, position: "bottom"}
         }}
       />
     </>

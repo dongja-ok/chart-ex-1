@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import lightTheme from "./assets/themes/LightTheme";
 import darkTheme from "./assets/themes/DarkTheme";
 import {
@@ -13,7 +13,7 @@ import {
   CardContent,
   IconButton
 } from "@material-ui/core";
-import { createMuiTheme, makeStyles } from "@material-ui/core/styles";
+import {createMuiTheme, makeStyles} from "@material-ui/core/styles";
 import CustomCharts from "./components/CustomCharts";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 
@@ -52,14 +52,14 @@ export default function App() {
             />
           </Grid>
           <Grid>
-            <Divider style={{ margin: "24px 0 24px 0" }} />
+            <Divider style={{margin: "24px 0 24px 0"}} />
           </Grid>
           <Grid
             container
             direction="row"
             justify="center"
             spacing={1}
-            style={{ display: "flex" }}
+            style={{display: "flex"}}
           >
             {/* <Grid item xs={false} /> */}
             <Grid item xs={12} lg={6}>
@@ -78,7 +78,7 @@ export default function App() {
                     </IconButton>
                   }
                 />
-                <CardContent style={{ backgroundColor: "#fff" }}>
+                <CardContent style={{backgroundColor: "#fff"}}>
                   <CustomCharts />
                 </CardContent>
               </Card>
@@ -99,7 +99,7 @@ export default function App() {
                     </IconButton>
                   }
                 />
-                <CardContent style={{ backgroundColor: "#fff", padding: 24 }}>
+                <CardContent style={{backgroundColor: "#fff", padding: 24}}>
                   <CustomCharts />
                 </CardContent>
               </Card>
